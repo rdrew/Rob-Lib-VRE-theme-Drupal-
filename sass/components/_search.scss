@@ -1,0 +1,23 @@
+aside {
+    input#edit-search-block-form--2 {
+        margin-bottom: 5px;
+    }
+    // input#edit-submit {
+    // 	float: right;
+    // }
+}
+
+.l-region--user-second .container-inline {
+    float: right;
+    input#edit-search-block-form--2 {
+        width: 16em;
+        display: inline;
+        background: #404040;
+        border: 1px solid #262626;
+        height: 30px;
+        margin-top: 10px;
+    }
+    input#edit-submit {
+        margin-bottom: 4px;
+    }
+}

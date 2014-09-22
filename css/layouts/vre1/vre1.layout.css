@@ -1,0 +1,310 @@
+/*******************************************************************************
+ * vre1.layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000313}}
+.limiter {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+  clear: both; }
+
+/* ==========================================================================
+   USER
+   ========================================================================== */
+@media (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000325}}
+  .user-container .l-region--user-first {
+    width: 48.57143%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000328}}
+  .user-container .l-region--user-second {
+    width: 48.57143%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+/* ==========================================================================
+   branding
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000342}}
+.branding-container .l-branding {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdrew\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000348}}
+  .branding-container .l-branding:before, .branding-container .l-branding:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdrew\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000355}}
+  .branding-container .l-branding:after {
+    clear: both; }
+  @media (min-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000345}}
+    .branding-container .l-branding .header-logo {
+      width: 22.85714%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000348}}
+    .branding-container .l-branding div.site-name {
+      width: 74.28571%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; } }
+
+/* ==========================================================================
+   header
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000373}}
+.header-container .l-region--header {
+  width: 14.28571%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000376}}
+.header-container .l-region--header-second {
+  width: 48.57143%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 17.14286%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000379}}
+.header-container .l-region--header-third {
+  width: 31.42857%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* ==========================================================================
+   navigation
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000388}}
+.navigation-container .l-region--navigation-first {
+  width: 22.85714%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000391}}
+.navigation-container .l-region--navigation-second {
+  width: 74.28571%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\0000395}}
+.breadcrumb {
+  display: none; }
+
+/* ==========================================================================
+   feature
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003103}}
+.feature-container .l-region--feature {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* ==========================================================================
+   preface
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003112}}
+.preface-container .l-region--preface-first {
+  width: 22.85714%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003115}}
+.preface-container .l-region--preface-second {
+  width: 74.28571%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003118}}
+.preface-container .l-region--preface-third {
+  width: 22.85714%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* ==========================================================================
+   content
+   ========================================================================== */
+@media (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003129}}
+  .l-page.has-one-sidebar.has-sidebar-first .l-region--sidebar-first {
+    width: 22.85714%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003132}}
+  .l-page.has-one-sidebar.has-sidebar-first .l-content {
+    width: 74.28571%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003138}}
+  .l-page.has-one-sidebar.has-sidebar-second .l-content {
+    width: 74.28571%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003141}}
+  .l-page.has-one-sidebar.has-sidebar-second .l-region--sidebar-second {
+    width: 22.85714%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003147}}
+  .l-page.has-two-sidebars .l-region--sidebar-first {
+    width: 22.85714%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003150}}
+  .l-page.has-two-sidebars .l-content {
+    width: 48.57143%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.71429%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003153}}
+  .l-page.has-two-sidebars .l-region--sidebar-second {
+    width: 22.85714%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+/* ==========================================================================
+   footer
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003208}}
+.l-footer {
+  display: none; }
+  @media (min-width: 500px) and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003208}}
+    .l-footer {
+      display: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003228}}
+      .l-footer .l-region--footer-first {
+        width: 18.18182%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 0%;
+        clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003231}}
+      .l-footer .l-region--footer-second {
+        width: 18.18182%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 20.45455%;
+        clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003234}}
+      .l-footer .l-region--footer-third {
+        width: 18.18182%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 40.90909%;
+        clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003237}}
+      .l-footer .l-region--footer-fourth {
+        width: 18.18182%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 61.36364%;
+        clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003240}}
+      .l-footer .l-region--footer-fifth {
+        width: 18.18182%;
+        float: right;
+        margin-left: 0;
+        margin-right: 0;
+        clear: none; } }
+
+/* ==========================================================================
+   subfooter
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003251}}
+.l-subfooter .l-region--subfooter-first {
+  display: none; }
+@media (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003255}}
+  .l-subfooter .l-region--subfooter-first {
+    display: inherit;
+    width: 74.28571%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003259}}
+  .l-subfooter .l-region--subfooter-second {
+    width: 22.85714%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media (min-width: 800px) and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003263}}
+  .l-subfooter .l-region--subfooter-first {
+    display: inherit;
+    width: 65.71429%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003267}}
+  .l-subfooter .l-region--subfooter-second {
+    width: 31.42857%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+
+/* ==========================================================================
+   clearfixes
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/layouts\/vre1\/vre1\.layout\.scss}line{font-family:\00003277}}
+.limiter, .l-footer, .l-subfooter {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdrew\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000348}}
+  .limiter:before, .limiter:after, .l-footer:before, .l-footer:after, .l-subfooter:before, .l-subfooter:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdrew\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000355}}
+  .limiter:after, .l-footer:after, .l-subfooter:after {
+    clear: both; }
+
+/* ==========================================================================
+   visual grids
+   ========================================================================== */

@@ -1,0 +1,12 @@
+@media all and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/upei-vre\.hacks\.scss}line{font-family:\000034}}
+  #toolbar, #admin-menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/upei-vre\.hacks\.scss}line{font-family:\000039}}
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/VRE3\/sites\/vre3\.upei\.ca\.omegabase\/themes\/upei_vre\/sass\/upei-vre\.hacks\.scss}line{font-family:\0000316}}
+h1 {
+  text-shadow: white 1px 1px, #cccccc -1px -1px; }

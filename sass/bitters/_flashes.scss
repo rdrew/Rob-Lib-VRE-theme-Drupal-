@@ -1,0 +1,38 @@
+%flash-error {
+  @include flash($error-color);
+}
+
+%flash-notice {
+  @include flash($notice-color);
+}
+
+%flash-success {
+  @include flash($success-color);
+}
+
+// .messages.error {
+//   @include flash($error-color);
+// }
+
+// .messages.warning {
+//   @include flash($notice-color);
+// }
+
+// .messages.status {
+//   @include flash($success-color);
+// }
+
+.messages {
+	border: none;
+	&.error {
+	  @include flash($error-color);
+	}
+
+	&.warning {
+	  @include flash($notice-color);
+	}
+
+	&.status {
+	  @include flash($success-color);
+	}
+}

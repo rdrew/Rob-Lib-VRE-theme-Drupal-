@@ -1,0 +1,113 @@
+name = Robertson Library VRE theme
+description = This is a sub-theme of omega and require Omega to be in the theme folder (not enabled).
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/upei-vre.normalize.css
+stylesheets[all][] = css/upei-vre.hacks.css
+stylesheets[all][] = css/upei-vre.styles.css
+stylesheets[all][] = css/upei-vre.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/upei-vre.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[page_top] = Page top
+regions[branding] = Branding
+regions[user_first] = User first
+regions[user_second] = User second
+regions[header] = Header
+regions[header_second] = Header second
+regions[header_third] = Header third
+regions[navigation] = Navigation
+regions[navigation_first] = Navigation first
+regions[navigation_second] = Navigation second
+regions[feature] = Feature
+regions[preface_first] = Preface first
+regions[preface_second] = Preface second
+regions[preface_third] = Preface third
+regions[highlight] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[postscript_first] = Postscript first
+regions[postscript_second] = Postscript second
+regions[postscript_third] = Postscript third
+regions[postscript_fourth] = Postscript fourth
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer_fourth] = Footer fourth
+regions[footer_fifth] = Footer fifth
+regions[subfooter_first] = Subfooter First
+regions[subfooter_second] = Subfooter Second
+regions[page_bottom] = Page bottom
+
+; ========================================
+; Settings
+; ========================================
+settings[toggle_logo] = 1
+settings[toggle_name] = 1
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[omega_toggle_front_page_content] = 1
+settings[default_logo] = 0
+settings[logo_path] = public://upei_logo_vre_omega.png
+settings[logo_upload] = ""
+settings[default_favicon] = 1
+settings[favicon_path] = ""
+settings[favicon_upload] = ""
+settings[omega_enable_warning] = 1
+settings[omega_toggle_extension_assets] = 1
+settings[omega_css_exclude][] = sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css
+settings[omega_libraries][selectivizr][status] = 0
+settings[omega_libraries][respond][status] = 0
+settings[omega_libraries][pie][status] = 0
+settings[omega_libraries][html5shiv][status] = 0
+settings[omega_toggle_extension_layouts] = 1
+settings[omega_layout] = vre1
+settings[omega_toggle_extension_development] = 1
+settings[omega_rebuild_theme_registry] = 0
+settings[omega_rebuild_aggregates] = 0
+settings[omega_browser_width_indicator] = 0
+settings[omega_livereload] = 1
+settings[omega_livereload_script] = http://localhost:35729/livereload.js
+settings[omega_livereload_host] = localhost
+settings[omega_livereload_port] = 35729
+settings[omega_demo_regions] = 0
+settings[omega_toggle_extension_compatibility] = 1
+settings[omega_conditional_classes_html] = 1
+settings[omega_apple_touch] = 1
+settings[omega_cleartype] = 1
+settings[omega_handheld_friendly] = 1
+settings[omega_mobile_optimized] = 1
+settings[omega_viewport] = 1
+settings[omega_viewport_user_scaleable] = 1
+settings[omega_chrome_edge] = 1
+settings[omega_chrome_popup] = 0
+settings[omega_chrome_notice] = 0
+settings[magic_embedded_mqs] = 0
+settings[magic_css_excludes] = room_reservations/room_reservations.css
+settings[magic_footer_js] = 0
+settings[magic_library_head] = 0
+settings[magic_experimental_js] = 0
+settings[magic_js_excludes] = ""
+settings[magic_performance__active_tab] = edit-css
+settings[magic_css_excludes_regex][exclude] = /^(sites\/rooms\.libdev\.islandora\.ca\/modules\/room_reservations\/room_reservations\.css)$/
+settings[magic_css_excludes_regex][include] = ""
+settings[magic_js_excludes_regex] = ""

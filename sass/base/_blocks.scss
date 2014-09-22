@@ -1,0 +1,20 @@
+// @mixin vre-block-style {
+// 	border-bottom: solid 1px #bbb;
+//     padding: 10px 0;
+// }
+
+.l-content {
+	.block {
+    // border-bottom: solid 1px #bbb;
+    padding: 10px 0px;
+}
+}
+
+aside {
+	.block {
+    padding-bottom: 20px;
+}
+}
+.block__title {
+	padding-bottom: 5px;
+}
